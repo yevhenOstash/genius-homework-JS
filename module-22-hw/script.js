@@ -1,18 +1,18 @@
 //  Якщо змінна більше нуля - виведіть true, менше - false
 //Перевірте це на варіантах  1, 0, -3.
 
-// let x;
-// x = prompt(
-//   "Enter any number, if it's bigger than 0, answer will be true, if this number is equal to zero, answer will be 0, in opposite way - false",
-// );
-// x = Number(x);
-// if (x > 0) {
-//   alert(true);
-// } else if (x < 0) {
-//   alert(false);
-// } else {
-//     alert("This is 0");
-// }
+let x;
+x = prompt(
+  "Enter any number, if it's bigger than 0, answer will be true, if this number is equal to zero, answer will be 0, in opposite way - false",
+);
+x = Number(x);
+if (x > 0) {
+  alert(true);
+} else if (x < 0) {
+  alert(false);
+} else {
+  alert("This is 0");
+}
 
 // Якщо змінна ="test" - виведіть true,
 //Перевірте це на варіантах  'test', "qwerty", true
